@@ -1,0 +1,36 @@
+com/webDevelopment/solid/services/HTMLFormatter.java
+ com.webDevelopment.solid.services.HTMLFormatter
+com/webDevelopment/solid/services/XMLFormatter.java
+ com.webDevelopment.solid.services.XMLFormatter
+com/webDevelopment/solid/services/Formatter.java
+ com.webDevelopment.solid.services.Formatter
+com/webDevelopment/solid/services/Sender.java
+ com.webDevelopment.solid.services.Sender
+com/webDevelopment/solid/services/JsonFormatter.java
+ com.webDevelopment.solid.services.JsonFormatter
+com/webDevelopment/solid/services/SlackSender.java
+ com.webDevelopment.solid.services.SlackSender
+com/webDevelopment/solid/services/NRS360EmailSender.java
+ com.webDevelopment.solid.services.NRS360EmailSender
+com/webDevelopment/solid/services/RaleyEmailSender.java
+ com.webDevelopment.solid.services.RaleyEmailSender
+com/webDevelopment/solid/controllers/FindBookCardController.java
+ com.webDevelopment.solid.controllers.FindBookCardController
+com/webDevelopment/solid/SolidApplication.java
+ com.webDevelopment.solid.SolidApplication
+com/webDevelopment/solid/models/Book.java
+ com.webDevelopment.solid.models.Book
+com/webDevelopment/solid/useCases/BookCardFinder.java
+ com.webDevelopment.solid.useCases.BookCardFinder
+com/webDevelopment/solid/services/Validator.java
+ com.webDevelopment.solid.services.Validator
+com/webDevelopment/solid/useCases/ListBooksByAuthor.java
+ com.webDevelopment.solid.useCases.ListBooksByAuthor
+com/webDevelopment/solid/services/BookValidator.java
+ com.webDevelopment.solid.services.BookValidator
+com/webDevelopment/solid/useCases/BookCreator.java
+ com.webDevelopment.solid.useCases.BookCreator
+com/webDevelopment/solid/controllers/BookCreatorController.java
+ com.webDevelopment.solid.controllers.BookCreatorController
+com/webDevelopment/solid/controllers/ListBooksController.java
+ com.webDevelopment.solid.controllers.ListBooksController
