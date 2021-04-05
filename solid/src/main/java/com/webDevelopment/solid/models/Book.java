@@ -6,13 +6,15 @@ public class Book {
     private Integer publishedYear;
     private Double price;
     private String description;
+    private Integer numberOfPages;
 
-    public Book(String title, String author, Integer publishedYear, Double price, String description) {
+    public Book(String title, String author, Integer publishedYear, Double price, String description, Integer numberOfPages) {
         this.title = title;
         this.author = author;
         this.publishedYear = publishedYear;
         this.price = price;
         this.description = description;
+        this.numberOfPages = numberOfPages;
     }
 
 
@@ -27,7 +29,9 @@ public class Book {
                 this.price % 1 == 0 &&
                 this.author.contains(" ") &&
                 this.publishedYear > 999 &&
-                this.publishedYear <= 2021;
+                this.publishedYear <= 2021 &&
+                this.numberOfPages > 0 &&
+                this.numberOfPages <= 1500;
     }
 
     public String titleAndAuthor(){
@@ -36,5 +40,11 @@ public class Book {
 
     public String getAuthor(){
         return this.author;
+    }
+
+    public String bookDetails(){ return "Description: "+this.description+", Price: "+this.price+", Date published: "+this.publishedYear+", Number of pages: "+this.numberOfPages+".\n";}
+
+    public String getTitle(){
+        return this.title;
     }
 }
